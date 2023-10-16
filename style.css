@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#weatherData {
+    background-image: url('./240_F_342012883_55yxWeuNXbHiXYjayt8Xktii8wDoFyXA.jpg');
+    background-size: cover; /* Растягиваем изображение на весь экран */
+    background-position: center; /* Выравниваем изображение по центру */
+    background-repeat: no-repeat; /* Запрещаем повторение изображения */
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+    /* background-color: #f0f0f0; */
+}
+.img{
+    width: 100% ;
+   object-fit: cover;
+}
+
+.h1 {
+    font-size: 24px;
+    color: red;
+}
+
+.p {
+    font-size: 18px;
+}
